@@ -1,0 +1,10 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+//https://www.youtube.com/watch?v=gdn9B0LCiI4 see here for guide!
+
+// Include any default variable overrides here (though functions won't be available)
+@import "./abstracts/variables";
+@import "~bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
