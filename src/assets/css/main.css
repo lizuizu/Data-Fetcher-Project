@@ -1,3 +1,197 @@
-p {
-    color: green;
+body {
+    background: radial-gradient(#F1E18A 0%, #F7D5B1 100%);
 }
+
+/* ----------------------------------------------------Top Banner Section------------------------------------------------------------- */
+
+/* -----------------Cloud 1 animation begin------------------*/
+#cloud-img1 {
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+    right: 250px;
+    -webkit-animation: cloud1 80s linear infinite alternate-reverse both;
+    animation: cloud1 80s linear infinite alternate-reverse both;
+}
+
+@-webkit-keyframes cloud1 {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+}
+
+@keyframes cloud1 {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(-380px);
+        transform: translateX(-380px);
+    }
+}
+
+/* -----------------Cloud 1 animation end------------------*/
+
+
+/* -----------------Cloud 2 animation begin------------------*/
+#cloud-img2 {
+    position: relative;
+    z-index: 3;
+    top: 20px;
+    -webkit-animation: slide-right 40s linear infinite alternate-reverse both;
+    animation: slide-right 40s linear infinite alternate-reverse both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(600px);
+        transform: translateX(600px);
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(600px);
+        transform: translateX(600px);
+    }
+}
+
+/* -----------------Cloud 2 animation end------------------*/
+
+/* -----------------Cloud 3 animation begin------------------*/
+
+#cloud-img3 {
+    position: relative;
+    z-index: 3;
+    top: 70px;
+    -webkit-animation: slide-left 45s linear infinite alternate-reverse both;
+    animation: slide-left 45s linear infinite alternate-reverse both;
+}
+
+@-webkit-keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(-650px);
+        transform: translateX(-650px);
+    }
+}
+
+@keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(-650px);
+        transform: translateX(-650px);
+    }
+}
+
+
+/* -----------------Cloud 3 animation end------------------*/
+
+.mountain-image-container {
+    display: inline-block;
+    position: relative;
+}
+
+#mountain-img {
+    margin-top: 30px;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+
+#mountain-img:hover {
+    transform: scale(1.1);
+}
+
+#the-sun {
+    height: 250px;
+    width: 250px;
+    background-color: #F9AC1F;
+    position: relative;
+    bottom: 300px;
+    border-radius: 100%;
+    z-index: 0;
+    left: 250px;
+    animation: theSun 8s ease 3s infinite normal forwards;
+}
+
+
+@keyframes theSun {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0.7;
+    }
+
+    30% {
+        opacity: 0.5;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    70% {
+        opacity: 0.4;
+    }
+
+    80% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.site-intro-title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    text-shadow: -1px -1px 31px #47FFF4;
+}
+
+.site-intro-title {
+    position: static;
+    display: inline-block;
+    right: 150px;
+    top: 20px;
+}
+
+/* @media (max-width: 1750px) {
+    .site-intro-title h1 {
+        font-size: 50px;
+    }
+} */
