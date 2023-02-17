@@ -323,3 +323,49 @@ body {
 
 
 /*---------------Testing html css----------------*/
+.q1 {
+    height: 600px;
+    width: 600px;
+
+}
+
+.q2 {
+    height: 600px;
+    width: 600px;
+
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+.q3 {
+    height: 600px;
+    width: 600px;
+
+}
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+}
+
+.q1 {
+    position: absolute;
+    left: 170px;
+}
+
+/* @media (max-width: 1150px) {
+    .mymount {
+        width: 320px;
+    }
+
+    .q1 {
+        left: 150px;
+    }
+
+    .q2 {
+        top: 100px;
+        left: 520px;
+
+    }
+} */
